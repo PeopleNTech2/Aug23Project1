@@ -85,6 +85,10 @@ class Hello {
 		//java logic
 		System.out.println(10.0 / 15.0);
 		
+		//assignment symbol: =
+		//comparison symbols: >, <, >=, <=, ==, !=
+		//logical symbols: &&, ||, !
+		//arithmetic symbols: +, -, *. /, %, ++(+1), --(-1)
 		System.out.println(10 != 9);
 	}
 }

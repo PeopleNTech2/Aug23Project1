@@ -22,8 +22,10 @@ public class UseString {
 		String firstName = "Jack";
 		String lastName = "Sparrow";
 		String space = " ";
+		int number = 12;
 		System.out.println(firstName+space+lastName);
 		System.out.println(firstName.concat(space.concat(lastName)));
+		System.out.println(firstName+(number+54));
 
 	}
 

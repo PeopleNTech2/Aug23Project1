@@ -5,7 +5,7 @@ public class IfElseIfandElseStatement {
 	public static void main(String[] args) {
 		
 		//if - else if ... - else 
-		int i = 0;
+		int i = -2;
 		
 		if(i > 0) {
 			System.out.println("the number is positive");
