@@ -3,7 +3,7 @@ package getstarted;
 
 //class: refers to the file
 class Hello {
-	//main method: entry point of the application
+	//main method: entry point of the application (runnable) -- predefined method in java
 	public static void main(String[] agrs) {
 		//print statement: print vs println
 		System.out.print("Hello World");
