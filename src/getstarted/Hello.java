@@ -1,6 +1,8 @@
 //package: refers to the java folder where your classes are located
 package getstarted;
 
+import modifiers.access.Computer;
+
 //class: refers to the file
 class Hello {
 	//main method: entry point of the application (runnable) -- predefined method in java
@@ -90,5 +92,13 @@ class Hello {
 		//logical symbols: &&, ||, !
 		//arithmetic symbols: +, -, *. /, %, ++(+1), --(-1)
 		System.out.println(10 != 9);
+
+		//----------------------------------------------------------------------------------
+		Computer com = new Computer();
+		com.graphicCrd();
+
+		//cannot access hd() function because it has default accessibility (can be accessed within the package only)
+		//com.hd();
+
 	}
 }

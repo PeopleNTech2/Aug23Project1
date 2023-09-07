@@ -27,6 +27,9 @@ public class UseString {
 		System.out.println(firstName.concat(space.concat(lastName)));
 		System.out.println(firstName+(number+54));
 
+		String str = new String();
+		str = "text";
+
 	}
 
 }

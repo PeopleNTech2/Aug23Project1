@@ -1,0 +1,31 @@
+temp converter project
+
+greet the user: welcome
+header: temp converter
+
+case yes:
+choose the conversion mode:
+1- C to F
+2- F to C
+
+case 1:
+enter the temp to convert
+do the conversion from C to F
+show the result
+
+case 2:
+enter the temp to convert
+do the conversion F to C
+show the result
+
+do you want to convert another temp?
+y/n (1- y/2- n)
+
+case 1:
+back to line 6
+
+case 2:
+go to line 31
+
+case no:
+greet: good bye, see you soon
