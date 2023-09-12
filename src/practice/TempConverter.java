@@ -41,7 +41,6 @@ public class TempConverter {
                 System.out.println("wrong answer, please enter 1 or 2");
                 answer = sc.nextInt();
             }
-
         }while (answer == 1);
         System.out.println("goodbye, see you soon");
     }
