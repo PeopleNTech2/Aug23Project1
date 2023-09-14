@@ -7,4 +7,14 @@ public class Son extends Father{
     //from Father to Son: single inheritance
     //from GranFather to Son: multi-level inheritance
     //Son cannot inherit from Father & Mother at the same time because Java doesn't support multiple inheritance
+
+    public Son(int height) {
+        super(height);
+    }
+
+    public void fat(){
+        super.athletic();
+        super.height = 7;
+        super.hasCar();
+    }
 }

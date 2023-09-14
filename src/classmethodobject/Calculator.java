@@ -16,6 +16,7 @@ public class Calculator {
         total = a + b;
         System.out.println(total);
     }
+    //recursive method: is a method that is calling itself
     void sub() {
         int a = 10;
         int b = 5;
@@ -23,6 +24,7 @@ public class Calculator {
 
         total = a - b;
         System.out.println(total);
+        //sub();
     }
 
     //return method

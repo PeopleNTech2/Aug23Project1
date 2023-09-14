@@ -6,12 +6,12 @@ public class TestHuman {
         thomas.educated();
         thomas.communicate();
 
-        Father david = new Father();
+        Father david = new Father(6);
 
         david.athletic();
         david.educated();
 
-        Son jack = new Son();
+        Son jack = new Son(7);
 
         jack.athletic();
         System.out.println(jack.height);
