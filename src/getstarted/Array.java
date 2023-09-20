@@ -10,6 +10,8 @@ public class Array {
 		//in-line declaration and assignment
 		int[] array = {5, 3, 8, 8};
 		String[] names = {"jack", "amber", "dave", "brad"};
+
+		System.out.println(names.length);
 		
 		System.out.println(array[0]);
 		
@@ -22,6 +24,7 @@ public class Array {
 		letters[2] = 'd';
 		letters[3] = 'c';
 		System.out.println(letters[3]);
+		System.out.println(letters.length);
 		
 		//2D array (Multidimensional array)
 		//2D array declaration

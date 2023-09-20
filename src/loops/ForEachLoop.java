@@ -5,19 +5,19 @@ public class ForEachLoop {
 	public static void main(String[] args) {
 		
 		String[] names = {"jack", "amber", "dave", "brad"};
-		
+
 		for (String name: names) {
 			System.out.println(name);
 		}
 		
-		int[] array = {5, 3, 8, 8};
+		int[] array = {8, 0, 2589, 95};
 		for(int i: array) {
 			System.out.print(i+"\n");
 		}
 		
 		int a = 5;
 		System.out.println(a);
-		
+
 		a = 9;
 		System.out.println(a);
 		
