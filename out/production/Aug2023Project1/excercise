@@ -49,6 +49,7 @@ Exercise4:
 ----------------------welcome to shuffle game---------------------------------------------
 guess where the 0 is ? list [1,0,1]
 are you ready to play? y/n
+if answer is not y/n keep asking the question
 
 if y:
 Shuffle the game (randomly change the position of 0 in the list)
